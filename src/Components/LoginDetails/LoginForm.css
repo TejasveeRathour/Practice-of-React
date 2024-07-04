@@ -1,0 +1,22 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px; /* Set maximum width for the form */
+    padding: 0 20px; /* Add horizontal padding */
+
+  }
+
+  .fields{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .label{
+    text-align: left;
+  }
